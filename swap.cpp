@@ -12,7 +12,8 @@ void reverseArray(int arr[], int size) {
         arr[start] = arr[end];
         arr[end] = temp;
 
-        start++;
+        start++;git commit -m "reverse array"
+
         end--;
     }
 }

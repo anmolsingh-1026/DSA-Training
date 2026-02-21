@@ -16,7 +16,7 @@ int main() {
 
     cout << "Enter element to search: ";
     cin >> key;
-
+    bool found = false;
     
 
     for(int i = 0; i < n; i++) {
